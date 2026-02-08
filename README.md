@@ -22,14 +22,16 @@ LoopTimmy is a "Consistency Machine" that automatically restarts your countdown 
 -Clock Logic: Date.now() synchronization for mobile battery-saver compatibility.
 -Hosting: Securely served via GitHub Pages (HTTPS).
 
+## Feedback?
+Open an issue or reach out via LinkedIn -> https://www.linkedin.com/in/analetizia-simono-18b551346/
+
 ## Support the Vibe
 If LoopTimmy helped you stay focused and gamify completing tasks, consider supporting the journey:
 
 * [Buy Me a Coffee](https://buymeacoffee.com/l_zia_l)
 * [Check out my other creations](https://linktr.ee/zia.stuff)
 
----
-
 ## The Fine Print
 LoopTimmy is open-source and free to use. 
-** Powered by ZiA **
+
+**Powered by ZiA**
