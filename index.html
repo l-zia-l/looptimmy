@@ -153,14 +153,16 @@
       btnPause.classList.remove('hidden');
 
       timerInterval = setInterval(() => {
-        timeLeft--;
-
-        if (timeLeft < 0) {
+        if (timeLeft <= 0) {
           notifyUser();
-          timeLeft = initialDuration;
-        }
 
-        updateDisplay();
+          timeLeft = initialDuration;
+
+          updateDisplay();
+        } else {
+          timeLeft--;
+          updateDisplay();
+        }
       }, 1000);
     }
 
